@@ -1,0 +1,80 @@
+.profile {
+    display: block;
+    flex-direction: column;
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10rem;
+    width: 40%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .profile .imgContainer {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  .profile .imgContainer img {
+    height: 100px;
+  }
+  .profile .btnGrp {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile button {
+    border-radius: 6px;
+    padding: 10px;
+    width: fit-content;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  .profile button:hover {
+    cursor: pointer;
+  }
+  .profile button:focus {
+    outline: none;
+  }
+  .profile .editBtn {
+    border: 1px solid #ef7917;
+    box-sizing: border-box;
+    color: #ef7917;
+  }
+  .profile .saveBtn {
+    background: #ef7917;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+  }
+  .profile .goBack {
+    color: #ef7917;
+    margin-top: 7px;
+    font-size: 13px;
+  }
+  .profile .goBack:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .profile .field {
+    margin-bottom: 10px;
+  }
+  .profile .field .fieldLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9e9e9e;
+    padding: 5px 0;
+  }
+  .profile .field input {
+    margin-top: 6px;
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+  }
+  
